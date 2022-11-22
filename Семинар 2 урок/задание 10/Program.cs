@@ -8,9 +8,9 @@
 // спросить у пользователя, желает ли он сам ввести или нужно рандомное число
 Console.WriteLine("Если Вы хотите ввести число введите -> да, если нет введите -> нет");
 Console.Write("Введите ответ -> ");
-string YesorNO = Console.ReadLine();
+string? YserNO = Convert.ToString(Console.ReadLine());
 
-if (YesorNO.ToLower() == "да"){
+if (YserNO.ToLower() == "да"){
     Console.Write("Введите трехзначное число -> ");
     int num = Convert.ToInt32(Console.ReadLine());
     if ((1000 > num && num > 100) || (-1000 < num && num < -100)){
