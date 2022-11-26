@@ -4,9 +4,9 @@
 Console.WriteLine("Пожалуйста введите имя");
 string name = Console.ReadLine();
 Console.WriteLine("Привет, " + name);
-bool true0 = true;
+bool true1 = true;
 // true0 == true выполнять цикл
-while(true0 == true){
+while(true1 == true){
     // объясняем что делает программа
     Console.WriteLine("Наша программа может делать 3 задачи");
     Console.WriteLine("1. Находит степень числа");
@@ -17,12 +17,12 @@ while(true0 == true){
     // если taskNum == 1 найти А в степени В
     if (taskNum == 1){
 
-        bool true6 = true;            
+        bool true2 = true;            
         // оповещаем пользователя какую задачу он выбрал
         Console.WriteLine("Поздравляю " + name + ",вы выбрали задачу 1. Найти степень числа");
 
         // true6 == true выполнять цикл
-        while(true6 == true){
+        while(true2 == true){
 
             // метод по нахождению А в степени В
             int stepenNumAandB(int number1, int number2){
@@ -46,16 +46,16 @@ while(true0 == true){
 
             // узнаем дальнейшие действия пользователя
             Console.Write("Вы хотите попробывать еще раз? Если да, введите 'да', иначе 'нет' -> ");
-            string? otvet22 = Console.ReadLine();
+            string? answer = Console.ReadLine();
             // Если пользователь ввел да, повторить программу
-            if (otvet22.ToLower() == "да"){
+            if (answer.ToLower() == "да"){
                 Console.WriteLine("Продолжаем :)");
-                true6 = true;
+                true2 = true;
             }
             // иначе не повоторять
             else{
                 Console.WriteLine("Спасибо, что пользовались нашей программой, жалко, что Вы уходите :(");
-                true6 = false;
+                true2 = false;
                 break;
             }
             }
@@ -67,8 +67,8 @@ while(true0 == true){
 
         // оповещаем пользователя какую задачу он выбрал
         Console.WriteLine("Поздравляю " + name + ",вы выбрали задачу 2. Найти сумму цифр в числе");
-        bool true7 = true;
-        while(true7 == true){
+        bool true3 = true;
+        while(true3 == true){
             int sumNumber(int number){
             int sum = 0;
             // Если number меньше 0 то выполняем условие
@@ -105,17 +105,17 @@ while(true0 == true){
             int result = sumNumber(num);
 
             Console.WriteLine($"Сумма цифр в числе {num} равно {result}");
-                        Console.Write("Вы хотите попробывать еще раз? Если да, введите 'да', иначе 'нет' -> ");
-            string? otvet22 = Console.ReadLine();
+            Console.Write("Вы хотите попробывать еще раз? Если да, введите 'да', иначе 'нет' -> ");
+            string? answer1 = Console.ReadLine();
             // Если пользователь ввел да, повторить программу
-            if (otvet22.ToLower() == "да"){
+            if (answer1.ToLower() == "да"){
                 Console.WriteLine("Продолжаем :)");
-                true7 = true;
+                true3 = true;
             }
             // иначе не повоторять
             else{
                 Console.WriteLine("Спасибо, что пользовались нашей программой, жалко, что Вы уходите :(");
-                true7 = false;
+                true3 = false;
                 break;
             }
             }
@@ -124,19 +124,19 @@ while(true0 == true){
     else if (taskNum == 3){
         // оповещаем пользователя какую задачу он выбрал
         Console.WriteLine("Поздравляю " + name + ",вы выбрали задачу 3. Вывести массив, которую Вы лично ввели или рандомные числа");
-        bool true1 = true;
+        bool true4 = true;
         // повторяем программу пока пользователь не введет нет
-        while(true1 == true){
+        while(true4 == true){
             Console.WriteLine("Пожалуйста, выберите, что Вы хотите, заполнить массив сами или рандомно. Если вы хотите заполнить введите 'да', иначе 'нет'");
 
             Console.Write("Введите ответ -> ");
-            string? otvet = Console.ReadLine();
+            string? answer2 = Console.ReadLine();
             // если пользователь ввел да, значит хочет сам заполнить
-            if (otvet.ToLower() == "да")
+            if (answer2.ToLower() == "да")
             {
-                bool true2 = true;
+                bool true5 = true;
                 // пока пользователь не введет нет, повторять программу
-                while (true2 == true)
+                while (true5 == true)
                 {
                     Console.Write("Введите длину массива -> ");
                     int lenghtArray = Convert.ToInt32(Console.ReadLine());
@@ -155,47 +155,51 @@ while(true0 == true){
 
 
                     Console.Write("Вы хотите попробывать еще раз? Если да, введите 'да', иначе 'нет' -> ");
-                    string? otvet22 = Console.ReadLine();
+                    string? answer3 = Console.ReadLine();
                     // Если пользователь ввел да, повторить программу
-                    if (otvet22.ToLower() == "да")
+                    if (answer3.ToLower() == "да")
                     {
                         Console.WriteLine("Продолжаем :)");
-                        true2 = true;
+                        true5 = true;
                     }
                     // иначе не повоторять
                     else
                     {
                         Console.WriteLine("Спасибо, что пользовались нашей программой, жалко, что Вы уходите :(");
-                        true2 = false;
+                        true5 = false;
                     }
                 }
 
             }
             // если пользователь ввел нет, значит он хочет чтобы длина и числа заполнялить рандомно
-            else if (otvet.ToLower() == "нет")
+            else if (answer2.ToLower() == "нет")
             {
-                bool true3 = true;
+                bool true6 = true;
                 //повторять программу полностью до тех пор, пока пользователь не введет нет
-                while (true3 == true)
+                while (true6 == true)
                 {
-                    bool true4 = true;
+                    bool true7 = true;
                     //повторять программу частично т.к пользователь неправильно ввел занчения до тех пор, пока пользователь не введет нет
-                    while (true4 == true)
+                    while (true7 == true)
                     {
 
                         Console.WriteLine("Пожалуйтса введите диапазон чисел и диапазон длины массива");
 
                         //вводим диапазон чисел в массиве
                         Console.WriteLine("Введите диапазон чисел");
+
                         Console.Write("Диапазон минимального числа -> ");
                         int run = Convert.ToInt32(Console.ReadLine());
+
                         Console.Write("Диапазон максимального числа -> ");
                         int run1 = Convert.ToInt32(Console.ReadLine());
 
                         //вводим диапазон длины массива
                         Console.WriteLine("Введите диапазон длины массива");
+
                         Console.Write("Диапазон минимального длины массива -> ");
                         int lenghtARRAY = Convert.ToInt32(Console.ReadLine());
+
                         Console.Write("Диапазон максимального длины массива -> ");
                         int lenghtARRAY1 = Convert.ToInt32(Console.ReadLine());
 
@@ -211,24 +215,40 @@ while(true0 == true){
                                 run3[i] = run4;
                             }
                             Console.WriteLine(string.Join(" ", run3));
+                            Console.Write("Вы хотите попробывать еще раз? Если да, введите 'да', иначе 'нет' -> ");
+                            string? answer4 = Console.ReadLine();
+                            //Если пользователь ввел да, выполняем следующее условие
+                            if (answer4.ToLower() == "да")
+                            {
+                                Console.WriteLine("Продолжаем :)");
+                                true7 = true;
+                            }
+                            //Если первое условие не выполнилось, выполняем другое условие
+                            else
+                            {
+                                Console.WriteLine("Спасибо, что пользовались нашей программой, жалко, что Вы уходите :(");
+                                true7 = false;
+                                //прерываем программу т.к пользователь больше не хочет пользоваться программой
+                                break;
+                            }
                         }
                         // если первое условие не выполнилось, выполняем следующее условие
                         else
                         {
                             Console.WriteLine("Вы ввели не правилно диапазоны");
                             Console.Write("Вы хотите попробывать еще раз? Если да, введите 'да', иначе 'нет' -> ");
-                            string? otvet22 = Console.ReadLine();
+                            string? answer5 = Console.ReadLine();
                             //Если пользователь ввел да, выполняем следующее условие
-                            if (otvet22.ToLower() == "да")
+                            if (answer5.ToLower() == "да")
                             {
                                 Console.WriteLine("Продолжаем :)");
-                                true4 = true;
+                                true7 = true;
                             }
                             //Если первое условие не выполнилось, выполняем другое условие
                             else
                             {
                                 Console.WriteLine("Спасибо, что пользовались нашей программой, жалко, что Вы уходите :(");
-                                true4 = false;
+                                true7 = false;
                                 //прерываем программу т.к пользователь больше не хочет пользоваться программой
                                 break;
                             }
@@ -238,18 +258,18 @@ while(true0 == true){
 
                     Console.WriteLine("Вы хотите повторить? Если да, введите 'да', иначе 'нет'");
                     Console.Write("Введите ответ -> ");
-                    string? otvet2 = Console.ReadLine();
+                    string? answer5 = Console.ReadLine();
                     //Если пользователь ввел да, выполняем следующее условие
-                    if (otvet2 == "да")
+                    if (answer5 == "да")
                     {
                         Console.WriteLine("Продолжим :)");
-                        true3 = true;
+                        true6 = true;
                     }
                     //Если первое условие не выполнилось, выполняем другое услови
                     else
                     {
                         Console.WriteLine("Спасибо, что пользовались нашей программой, жалко, что Вы уходите :(");
-                        true3 = false;
+                        true6 = false;
                     }
 
                 }
@@ -260,21 +280,34 @@ while(true0 == true){
             {
                 Console.WriteLine("Вы ввели не 'да' и 'нет', попробуйте еще раз");
                 Console.Write("Вы хотите еще раз попробовать еще раз? Если да введите 'да', иначе 'нет' -> ");
-                string? otvet5 = Console.ReadLine();
+                string? answer6 = Console.ReadLine();
                 //Если пользователь ввел да, выполняем следующее условие
-                if (otvet5.ToLower() == "да")
+                if (answer6.ToLower() == "да")
                 {
                     Console.WriteLine("Продолжаем :)");
-                    true1 = true;
+                    true4 = true;
                 }
                 //Если первое условие не выполнилось, выполняем другое услови
                 else
                 {
                     Console.WriteLine("Спасибо, что пользовались нашей программой, жалко, что Вы уходите :(");
-                    true1 = false;
+                    true4 = false;
                 }
             }
         }
+    }
+    Console.Write("Вы хотите попробывать еще раз? Если да, введите 'да', иначе 'нет' -> ");
+    string? answer7 = Console.ReadLine();
+    // Если пользователь ввел да, повторить программу
+    if (answer7.ToLower() == "да"){
+        Console.WriteLine("Продолжаем :)");
+        true1 = true;
+    }
+    // иначе не повоторять
+    else{
+        Console.WriteLine("Спасибо, что пользовались нашей программой, жалко, что Вы уходите :(");
+        true1 = false;
+        break;
     }
     
 }
