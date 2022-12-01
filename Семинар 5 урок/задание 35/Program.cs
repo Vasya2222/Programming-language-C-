@@ -4,7 +4,7 @@
 // [1, 2, 3, 6, 2] -> 0
 // [ 10, 11, 12, 13, 14 ] -> 5
 
-
+// метод создания массива
 int[] Array(int minDlina, int maxDlina, int minNumber, int maxNumber)
 {
     int[] array = new int[new Random().Next(minDlina, maxDlina)];
@@ -15,6 +15,7 @@ int[] Array(int minDlina, int maxDlina, int minNumber, int maxNumber)
     return array;
 }
 
+// метод для нахождения количеств чисел в диапазоне между 10 и 99
 int FindNumberBetween10And99(int[] array)
 {
     int count = 0;
