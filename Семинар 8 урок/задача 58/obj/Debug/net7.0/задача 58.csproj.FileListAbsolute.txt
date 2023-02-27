@@ -1,0 +1,15 @@
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\задача 58.csproj.AssemblyReference.cache
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\задача 58.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\задача 58.AssemblyInfoInputs.cache
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\задача 58.AssemblyInfo.cs
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\задача 58.csproj.CoreCompileInputs.cache
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\bin\Debug\net7.0\задача 58.exe
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\bin\Debug\net7.0\задача 58.deps.json
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\bin\Debug\net7.0\задача 58.runtimeconfig.json
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\bin\Debug\net7.0\задача 58.dll
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\bin\Debug\net7.0\задача 58.pdb
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\задача 58.dll
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\refint\задача 58.dll
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\задача 58.pdb
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\задача 58.genruntimeconfig.cache
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 58\obj\Debug\net7.0\ref\задача 58.dll

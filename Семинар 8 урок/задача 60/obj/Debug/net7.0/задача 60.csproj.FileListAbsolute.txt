@@ -1,0 +1,5 @@
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 60\obj\Debug\net7.0\задача 60.csproj.AssemblyReference.cache
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 60\obj\Debug\net7.0\задача 60.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 60\obj\Debug\net7.0\задача 60.AssemblyInfoInputs.cache
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 60\obj\Debug\net7.0\задача 60.AssemblyInfo.cs
+C:\Users\Василий\Source\Repos\Vasya2222\Programming-language-C-\Семинар 8 урок\задача 60\obj\Debug\net7.0\задача 60.csproj.CoreCompileInputs.cache
