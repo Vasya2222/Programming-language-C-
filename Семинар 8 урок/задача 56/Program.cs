@@ -15,10 +15,11 @@ NumberRowMinSumElements(table);
 
 // Функция вывода номера строки (не индекса) с наименьшей суммой элементов 
 void NumberRowMinSumElements(int[,] array)
+void NumberRowMinSumElements(int[,] array)
 {
-    0 = = 0;
-    0 = = 0;
-    0 = = 0;
+    int minRow = 0;
+    int minSumRow = 0;
+    int sumRow = 0;
     for (int i = 0; i < table.GetLength(1); i++)
     {
         minRow += table[0, i];
@@ -26,7 +27,7 @@ void NumberRowMinSumElements(int[,] array)
     for (int i = 0; i < table.GetLength(0); i++)
     {
         for (int j = 0; j < table.GetLength(1); j++) sumRow += table[i, j];
-        if (sumRow
+        if (sumRow < minRow)
         {
             minRow = sumRow;
             minSumRow = i;
@@ -36,8 +37,8 @@ void NumberRowMinSumElements(int[,] array)
     Console.Write($"{minSumRow + 1} строка");
 }
 
-// Функция вывода двумерного массива
-void PrintArray(int[,] array)
+    // Функция вывода двумерного массива
+    void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
