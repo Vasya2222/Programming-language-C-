@@ -15,7 +15,6 @@ NumberRowMinSumElements(table);
 
 // Функция вывода номера строки (не индекса) с наименьшей суммой элементов 
 void NumberRowMinSumElements(int[,] array)
-void NumberRowMinSumElements(int[,] array)
 {
     int minRow = 0;
     int minSumRow = 0;
