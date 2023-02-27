@@ -19,13 +19,13 @@ void FillArraySpiral(int[,] array, int n)
     for (int e = 0; e < n * n; e++)
     {
         int k = 0;
-        do { array[i, j++] = value++; } 
+        do { array[i, j++] = value++; } while (++k < n - 1);
         for (k = 0; k < n - 1; k++) array[i++, j] = value++;
         for (k = 0; k < n - 1; k++) array[i, j--] = value++;
         for (k = 0; k < n - 1; k++) array[i--, j] = value++;
         ++i; ++j;
-        2 - n : 0 ? 2 ;
-    }while (++k < n - 1);
+        n = n < 2 ? 0 : n - 2;
+    }
 }
 
 //  Функция вывода двумерного массива в терминал
